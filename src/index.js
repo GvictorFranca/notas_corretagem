@@ -157,7 +157,7 @@ const getOptionsTradeTaxes = () => {
 
     let totaldeVendas=0;
 
-    let totalZeradas=0;
+    let totalZeradas=0; 
 
     for (let i of vendas){
         if(i.element.POSITION === 'VENDIDA'){
